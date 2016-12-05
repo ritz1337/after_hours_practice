@@ -1,0 +1,116 @@
+/*NOTES:*/
+/*Couldn't get Footer List Items to display in line equally spaced within the footer div*/
+/*Background color disappeared*/
+
+body {
+  background: #EAB895;
+/* margin: 0 auto;*/
+}
+
+header {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Neucha', cursive;
+  color: #5A8C79;
+
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Neucha', cursive;
+  color: #5A8C79;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+}
+
+h3 {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      color: #5A8C79;
+
+}
+.h3class {
+    font-family: 'Roboto', sans-serif;
+    color: #6EAD81;
+}
+
+.h3class:hover {
+  color: #2E5E83;
+}
+
+.h3class:active {
+  color: green;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Neucha', cursive;
+  font-size: 24px;
+  margin: 0 auto -20px;
+  text-align: left;
+  padding: 20px;
+  color: #FBF0F0
+}
+
+.characteristics {
+  margin: 1em auto;
+  width: 750px;
+  background: #5857A0;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+}
+
+
+.lookingfor {
+  margin: 1em auto;
+  width: 750px;
+  background: #5857A0;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+
+}
+
+.perfectdate {
+  margin: 1em auto;
+  width: 750px;
+  background: #5857A0;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+
+}
+
+ul {
+      font-family: 'Roboto', sans-serif;
+      color: #DDC6C7;
+}
+
+footer {
+  margin: 0 auto;
+  width: 750px;
+  background: #E1696F;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+  margin-bottom: 10px;
+
+}
+
+.redbold {
+  color: #8F0007;
+  font-weight: bold;
+}
+
