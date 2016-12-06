@@ -5,7 +5,7 @@
 // A. ||||||| ARRAY PLAY! |||||||
 
 // 1. Make a roster variable and set it to an array of the players.
-console.log("1. The Roster\n")
+console.log("1. The Roster\n");
 
 var roster = [
               "Judy Kim",
