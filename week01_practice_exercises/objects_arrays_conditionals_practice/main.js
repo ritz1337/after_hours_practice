@@ -362,11 +362,11 @@ for (var i = 0; i < tickets.length ; i++) {
 var tickets = [
   {amount: 50.00, discount: false, zombie: true}, // STANDARD 10
   {amount: 60.00, discount: true,  zombie: false}, // INVALID
-  {amount: 50.00}, //STANDARD NO DRINKS [MISSING OUT]
+  {amount: 50.00}, //STANDARD NO DRINKS
   {amount: 65.00, discount: true,  zombie: true}, // PREMIER 20
   {amount: 90.00, discount: false}, //PREMIER PLUS
   {amount: 50.00, discount: true,  zombie: false}, //STANDARD 10
-  {amount: 50.00, zombie:   true}, //STANDARD 10 [MISSING OUT]
+  {amount: 50.00, zombie:   true}, //STANDARD 10
   {amount: 80.00, discount: true}, //PREMIER PLUS
   {amount: 90.00}, //PREMIER PLUS
   {amount: 50.00, discount: true} //STANDARD 10
@@ -397,8 +397,8 @@ for (i=0; i < tickets.length; i++) {
       if (tickets[i].discount === true && tickets[i].zombie === true) {
         console.log("STANDARD $20 DRINKS");
       }
-        else if (tickets[i].discount === false && tickets[i].zombie === false) {
-          console.log("STANDARD NO DRINKS"); //not working for tickets[2](50). do i need to use hasOwnProperty everywhere?
+        else if ((tickets[i].discount === false && tickets[i].zombie === false) || (tickets[i].discount === undefined && tickets[i].zombie === undefined)) {
+          console.log("STANDARD NO DRINKS");
         } else console.log("STANDARD $10 DRINKS");
     }
   } else console.log("ERROR: INVALID TICKET");
