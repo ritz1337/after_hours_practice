@@ -25,9 +25,11 @@ body {
   width: 5%;
 }
 
+/*added position: relative*/
 .main {
   width: 960px;
   margin: 0 auto;
+  position: relative;
 }
 
 img {
@@ -37,3 +39,31 @@ img {
 /*==================================*/
 /* Write Your Styles below!!! */
 /*==================================*/
+
+.wishbone {
+  left: 404px;
+  top: 285px;
+  position: absolute;
+  transform: rotate(32deg);
+}
+
+.heart {
+  right: 443px;
+  top: 336px;
+  position: absolute;
+  transform: rotate(325deg);
+}
+
+.breadbasket {
+  position: absolute;
+  bottom: 100px;
+  left: 431px;
+  transform: rotate(-15deg);
+}
+
+.butterflies {
+  position: absolute;
+  top: 409px;
+  right: 388px;
+  transform: rotate(15deg);
+}
