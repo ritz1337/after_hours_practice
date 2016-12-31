@@ -1,3 +1,5 @@
+console.log("callbacks");
+
 var randomName = function() {
        var name = ['George', 'Mike', 'Joe', 'Natalie'];
        //RETURN A RANDOM NAME FROM THE name ARRAY
