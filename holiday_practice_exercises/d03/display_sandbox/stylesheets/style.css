@@ -21,4 +21,10 @@ h1 {
 div {
   height: 200px;
   width: 200px;
+  display: inline-block;
+  margin: -4px; /* to see no whitespace*/
+}
+
+li {
+  display: inline-block;
 }
